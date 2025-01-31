@@ -1,0 +1,25 @@
+## Bug Reports
+
+Here are the bug reports I have worked on:
+
+### 1. Login Section Empty Field Error
+- **Bug ID**: [LT-1](https://eseyfullayev36.atlassian.net/browse/LT-1)
+- **Description**: When the user leaves the **Username** or **Password** field empty, the system does not display any error message, and the page reloads without logging in.
+- **Steps to Reproduce**:
+  1. Go to the login page.
+  2. Leave **Username** or **Password** fields empty.
+  3. Click the **Login** button.
+- **Expected Behavior**: The system should display an error message "Username and Password cannot be empty".
+- **Actual Behavior**: No error message is shown, and the page reloads without logging in.
+- **Status**: Open
+
+### 2. Change Password Section Error
+- **Bug ID**: [LT-2](https://eseyfullayev36.atlassian.net/browse/LT-2)
+- **Description**: When the user enters a new password and confirms it incorrectly, the system does not show an error message and does not allow the password change.
+- **Steps to Reproduce**:
+  1. Go to the **Change Password** section.
+  2. Enter a new password and a different confirmation password.
+  3. Click **Save**.
+- **Expected Behavior**: The system should display "add your email" link will send to email.
+- **Actual Behavior**: "Add your email" button didn't display.
+- **Status**: Open
